@@ -29,6 +29,7 @@ Welcome to **Fifth Fortune**, an online casino site featuring an exciting game c
 ## Screenshots
 
 ![Screenshot 1](https://i.ibb.co/TqdM0gc/fifth-fortune-homepage.png)
+
 *Homepage of Fifth Fortune*
 
 ## Contributing
@@ -37,6 +38,6 @@ We welcome contributions to Fifth Fortune! If you'd like to contribute, please f
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://github.com/LejhandG/fifth-fortune/blob/main/LICENSE).
 
 ---
