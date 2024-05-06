@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fifth Fortune - The Ultimate Limbo Experience</title>
+    <meta name="description" content="Welcome to Fifth Fortune, the only online casino where you can play the thrilling game of Limbo. With its simple rules and exciting gameplay, Limbo is the perfect game for both casual and serious gamblers. Join us today and see if you have what it takes to win big!" />
+    <meta property="og:title" content="Fifth Fortune - The Ultimate Limbo Experience" />
+    <meta property="og:description" content="Play Limbo, the exciting game available at Fifth Fortune, the premier online casino. With simple rules and big rewards, Limbo is the perfect game for anyone looking for a thrilling gambling experience." />
+    <meta property="og:image" content="https://fifthfortune.netlify.app/logo-white.png" />
+    <meta property="og:url" content="https://www.fifthfortune.netlify.app/" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="icon-only-white.svg" type="image">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html">Fifth Fortune</a></div>
+        <div class="wallet">
+            <div class="amount"><div class="amount-text">0.00</div></div>
+            <button class="dep-button" onclick="depAmount()"><img src="deposit.svg" alt=""></button>
+            <button class="with-button" onclick="withAmount()"><img src="minus-svgrepo-com.svg" alt=""></button>
+        </div>
+    </header>
+    <main>
+        <div class="left"><h1 id="counter">1.00x</h1></div>
+        <button class="center" onclick="randomMulti()">Bet</button>
+        <div class="right">
+            <form onsubmit="mySubmitFunction(event)">
+                <label for="bet-amount">Bet Amount</label><br>
+                <input type="number" name="bet-amount" id="bet-amount" value="0" step=".01">
+                <button id="halfAmount""><sup>1</sup>/<sub>2</sub></button>
+                <button id="doubleAmount">2x</button><br><br>
+                <label for="profit-on-win">Profit on Win</label><br>
+                <input type="number" name="profit-on-win" id="profit-on-win" disabled value="0"><br><br>
+                <label for="target-multiplier">Target Multiplier</label><br>
+                <input type="number" name="target-multiplier" id="target-multiplier" value="2"><br><br>
+                <label for="win-chance">Win Chance</label><br>
+                <input type="number" name="win-chance" id="win-chance" disabled value="50">
+            </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

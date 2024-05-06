@@ -1,0 +1,130 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+body {
+    background-color: #121212;
+}
+* {
+    margin: 0;
+}
+header {
+    height: 10vh;
+    background-color: #121212;
+    border-bottom: #4645455e solid 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+.logo {
+    font-family: 'Oswald';
+    color: white;
+    text-align: center;
+    font-size: 3vmax;
+}
+.wallet {
+    background-color: #292929;
+    height: 5vh;
+    width: auto;
+    display: flex;
+}
+.amount {
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amount-text {
+    margin: auto;
+    color: white;
+    margin: 5px;
+}
+.dep-button {
+    height: 100%;
+    width: auto;
+    background-color: #6674CC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dep-button > img {
+    height: 50%;
+    cursor: pointer;
+}
+.with-button {
+    height: 100%;
+    width: auto;
+    background-color: #6674CC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.with-button > img {
+    height: 50%;
+    cursor: pointer;
+}
+main {
+    background-color: rgb(23, 23, 23);
+    margin: 3vh auto;
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+.left {
+    height: 30%;
+    width: 100%;
+    background-color: rgb(39, 38, 38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left > h1 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 10vmax;
+}
+.center {
+    height: 10%;
+    width: 100%;
+    background-color: #1FFF20;
+    color: black;
+    font-family: sans-serif;
+    font-size: 2vmax;
+    font-weight: 600;
+    cursor: pointer;
+}
+.right {
+    height: 60%;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right > form {
+    font-family: sans-serif;
+}
+.right > form > input {
+    background-color: #3d3b3b;
+    border: 0;
+    height: 4vh;
+    width: 100%;
+    border: 2px solid #555353;
+    border-radius: 5px;
+    color: white;
+}
+#bet-amount {
+    width: 67.93%;
+}
+.right > form > button {
+    height: 4vh;
+    background-color: #292929;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+label {
+    color: white;
+}
